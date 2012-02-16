@@ -1,1 +1,42 @@
-get ready to be fueled
+Mission: Fuel
+-------------
+
+
+
+Installation:
+-------------
+
+~~~
+make new virtual env
+~~~
+
+~~~
+git clone \<repo\>
+~~~
+
+~~~
+cd \<repo\>
+~~~
+
+~~~
+pip install -r requirements.txt
+~~~
+
+Running program:
+----------------
+
+~~~
+cd fuellookup
+~~~
+
+~~~
+python test.py
+~~~
+
+check out the sweet ass results
+
+
+
+
+
+

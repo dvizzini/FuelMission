@@ -2,7 +2,8 @@ from requests import get
 from simplejson import loads
 
 class Station:
-
+    ''' just holds some data we would need for stations'''
+    
     def __init__(self,kwargs):
         self.regular = float(kwargs['regular'])
         self.address = kwargs['address']
@@ -15,6 +16,8 @@ class Station:
     
 
 def gas_prices(zip_code):
+    ''' creates a list of stations from a zip code query'''
+    
     url = 'http://api.mshd.net'
     return [Station(item)
             for item in 

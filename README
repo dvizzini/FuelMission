@@ -1,6 +1,12 @@
 Mission: Fuel
 -------------
 
+home:
+
+http://fuelmission.ep.io
+
+the site is kinda too slow for practical purposes right now, so we'll have to switch to ec2 or heroku or something.
+
 Installation:
 -------------
 

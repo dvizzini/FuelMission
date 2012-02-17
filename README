@@ -18,7 +18,7 @@ Installation:
 
 `pip install -r requirements.txt`
 
-Running program:
+Running algorithmic code:
 ----------------
 
 `cd fuellookup`
@@ -26,3 +26,12 @@ Running program:
 `python test.py`
 
 check out the sweet ass results
+
+Running the server:
+---------------
+
+`cd web`
+`python app.py`
+
+
+

@@ -5,6 +5,7 @@
     <tr>
       <th>Address</th>
       <th>Gas Price</th>
+	  <th>Logo</th>
     </tr>
   </thead>
   <tbody>
@@ -15,8 +16,9 @@
 <div id="map-canvas" style="width:100%; height:100%">
 </div>
 <div>
+<button class="btn" id="get-directions">Get Directions</button>
 <strong>Start: </strong>
-<select id="start">
+<select id="start" class="address-selector">
   <option value="chicago, il">Chicago</option>
   <option value="st louis, mo">St Louis</option>
   <option value="joplin, mo">Joplin, MO</option>
@@ -31,7 +33,7 @@
   <option value="los angeles, ca">Los Angeles</option>
 </select>
 <strong>End: </strong>
-<select id="end">
+<select id="end" class="address-selector">
   <option value="chicago, il">Chicago</option>
   <option value="st louis, mo">St Louis</option>
   <option value="joplin, mo">Joplin, MO</option>

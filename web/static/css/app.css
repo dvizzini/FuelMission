@@ -1,0 +1,9 @@
+#second-hero
+{
+    height: 30em;
+}
+#map-canvas { height: 100% }
+
+#map-canvas img {
+max-width: none;
+}

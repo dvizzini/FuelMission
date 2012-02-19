@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block mainhero %}
+<table class="table-striped table-condensed table-bordered table">
+  <thead>
+    <tr>
+      <th>Address</th>
+      <th>Gas Price</th>
+	  <th>Logo</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+{% endblock %}
+{% block secondhero %}
+<div id="map-canvas" style="width:100%; height:100%">
+</div>
+<div>
+<button class="btn" id="get-directions">Get Directions</button>
+<strong>Start: </strong>
+<select id="start" class="address-selector">
+  <option value="chicago, il">Chicago</option>
+  <option value="st louis, mo">St Louis</option>
+  <option value="joplin, mo">Joplin, MO</option>
+  <option value="oklahoma city, ok">Oklahoma City</option>
+  <option value="amarillo, tx">Amarillo</option>
+  <option value="gallup, nm">Gallup, NM</option>
+  <option value="flagstaff, az">Flagstaff, AZ</option>
+  <option value="winona, az">Winona</option>
+  <option value="kingman, az">Kingman</option>
+  <option value="barstow, ca">Barstow</option>
+  <option value="san bernardino, ca">San Bernardino</option>
+  <option value="los angeles, ca">Los Angeles</option>
+</select>
+<strong>End: </strong>
+<select id="end" class="address-selector">
+  <option value="chicago, il">Chicago</option>
+  <option value="st louis, mo">St Louis</option>
+  <option value="joplin, mo">Joplin, MO</option>
+  <option value="oklahoma city, ok">Oklahoma City</option>
+  <option value="amarillo, tx">Amarillo</option>
+  <option value="gallup, nm">Gallup, NM</option>
+  <option value="flagstaff, az">Flagstaff, AZ</option>
+  <option value="winona, az">Winona</option>
+  <option value="kingman, az">Kingman</option>
+  <option value="barstow, ca">Barstow</option>
+  <option value="san bernardino, ca">San Bernardino</option>
+  <option value="los angeles, ca">Los Angeles</option>
+</select>
+</div>
+{% endblock %}

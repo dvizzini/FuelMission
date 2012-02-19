@@ -1,4 +1,5 @@
-cvxpy==0.0.1
+Flask==0.8
 -e git+https://github.com/geopy/geopy.git@d6821905f091e5a03028fb265134e1b26f095239#egg=geopy-dev
 requests==0.10.2
 simplejson==2.3.2
+cvxpy==0.0.1

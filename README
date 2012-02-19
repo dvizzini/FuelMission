@@ -1,6 +1,12 @@
 Mission: Fuel
 -------------
 
+home:
+
+http://fuelmission.heroku.com
+
+sometimes doesn't respond fast enough (bottlenecked by the goddamn gas price api)
+
 Installation:
 -------------
 
@@ -12,7 +18,7 @@ Installation:
 
 `pip install -r requirements.txt`
 
-Running program:
+Running algorithmic code:
 ----------------
 
 `cd fuellookup`
@@ -20,3 +26,12 @@ Running program:
 `python test.py`
 
 check out the sweet ass results
+
+Running the server:
+---------------
+
+`cd web`
+`python app.py`
+
+
+

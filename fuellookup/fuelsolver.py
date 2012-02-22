@@ -117,5 +117,4 @@ class FuelSolver:
         # attach properties to access later
         self.bought = bought
         self.in_tank = in_tank
-        self.program = p        
-	
+        self.program = p

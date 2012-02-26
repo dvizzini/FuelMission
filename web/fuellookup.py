@@ -37,4 +37,5 @@ def multi_prices(zip_codes):
     
     
                                 
-   
+if __name__ == '__main__':
+    print 'hello'

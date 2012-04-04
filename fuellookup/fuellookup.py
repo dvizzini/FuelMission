@@ -12,9 +12,12 @@ class Station:
     def __repr__(self):
         return '%s: %f' % (self.address, self.regular)
 
-    def __str__(self):
+    #being a bit anal: http://stackoverflow.com/questions/1307014/python-str-versus-unicode
+    def __unicode__(self):
         return self.__repr__()
-    
+
+    def __str__(self):
+        return unicode(self).encode('utf-8')
 
 def gas_prices(zip_code):
     ''' creates a list of stations from a zip code query'''
@@ -34,7 +37,3 @@ def multi_prices(zip_codes):
     zip_stats = pool.map(gas_prices,zip_codes)
     
     return [{'address':stat.address,'price':stat.regular} for z in zip_stats for stat in z]
-    
-    
-                                
-   

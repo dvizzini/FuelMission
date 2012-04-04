@@ -38,4 +38,12 @@ print
 # show the amount to buy
 print 'buy values:'
 print solver.bought.value
+print 'total cost:'
+print solver.objective_value
 
+solver = FuelSolver(car,route,method = 'dynamic')
+solver.solve()
+print 'dynamic buy values'
+print solver.bought
+print 'total cost:'
+print solver.objective_value

@@ -2,4 +2,5 @@
 *pyc
 #*
 *#
-web/static/coffee/*.js
+web/static/coffee/*.jscvxpy-read-only
+cvxpy-read-only

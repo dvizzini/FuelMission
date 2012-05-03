@@ -1,6 +1,8 @@
 Mission: Fuel
 -------------
 
+This project is an attempt to use linear and (mostly) dynamic programming to optimize where one should stop and how much fuel one should purchase on a trip. The API's on which it relies present serious difficulties.
+
 home:
 
 http://fuelmission.heroku.com
